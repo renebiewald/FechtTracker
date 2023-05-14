@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gui.App", "FechtTracker\Gui.App.csproj", "{6D7BC192-6B36-476F-BA58-4C4340C6E70F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gui.App", "10_Gui\Gui.App\Gui.App.csproj", "{6D7BC192-6B36-476F-BA58-4C4340C6E70F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_Gui", "10_Gui", "{1CC32763-A1A7-4C92-9A72-2656B6B0A22D}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30_Logic", "30_Logic", "{EDA15262-CB75-4808-A08C-DFAE5D6ED5D7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40_Data", "40_Data", "{E1916008-4DCC-499B-99A4-9C3E4B176546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Gui.App", "25_Binding\Binding.Gui.App\Binding.Gui.App.csproj", "{98212C7A-766A-4065-ABA5-A53621AF5D8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,12 +43,25 @@ Global
 		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|x86.ActiveCfg = Release|Any CPU
 		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|x86.Build.0 = Release|Any CPU
 		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|x86.Deploy.0 = Release|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Debug|arm64.Build.0 = Debug|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Debug|x86.Build.0 = Debug|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Release|arm64.ActiveCfg = Release|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Release|arm64.Build.0 = Release|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Release|x86.ActiveCfg = Release|Any CPU
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6D7BC192-6B36-476F-BA58-4C4340C6E70F} = {1CC32763-A1A7-4C92-9A72-2656B6B0A22D}
+		{98212C7A-766A-4065-ABA5-A53621AF5D8A} = {849044AC-31AC-46BE-830B-7DDD4F9E0DE6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
