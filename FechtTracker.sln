@@ -3,23 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FechtTracker", "FechtTracker\FechtTracker.csproj", "{6D7BC192-6B36-476F-BA58-4C4340C6E70F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gui.App", "FechtTracker\Gui.App.csproj", "{6D7BC192-6B36-476F-BA58-4C4340C6E70F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_Gui", "10_Gui", "{1CC32763-A1A7-4C92-9A72-2656B6B0A22D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "25_Binding", "25_Binding", "{849044AC-31AC-46BE-830B-7DDD4F9E0DE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30_Logic", "30_Logic", "{EDA15262-CB75-4808-A08C-DFAE5D6ED5D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40_Data", "40_Data", "{E1916008-4DCC-499B-99A4-9C3E4B176546}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|arm64 = Debug|arm64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|arm64 = Release|arm64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Debug|arm64.Build.0 = Debug|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Debug|arm64.Deploy.0 = Debug|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Debug|x86.Build.0 = Debug|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Debug|x86.Deploy.0 = Debug|Any CPU
 		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|arm64.ActiveCfg = Release|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|arm64.Build.0 = Release|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|arm64.Deploy.0 = Release|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|x86.ActiveCfg = Release|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|x86.Build.0 = Release|Any CPU
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F}.Release|x86.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D7BC192-6B36-476F-BA58-4C4340C6E70F} = {1CC32763-A1A7-4C92-9A72-2656B6B0A22D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
