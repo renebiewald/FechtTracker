@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>FechtTracker.Data.Tests</AssemblyName>
+    <RootNamespace>FechtTracker.Data.Tests</RootNamespace>
+  </PropertyGroup>
+
+</Project>
